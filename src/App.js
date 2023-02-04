@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Notfound from './Pages/Notfound';
+import Contact from './Pages/Contact';
+import {Route} from 'react-router-dom';
+import {Routes} from 'react-router-dom';
+import Favourite from './Components/Favourites/Favourite';
 
-function App() {
+
+const App=()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <Routes>
+      <Route path='/' element={<Favourite/>}/> 
+      <Route path='/Contact' element={<Contact/>}/>
+      <Route element={<Notfound/>}/>
+    </Routes> 
+    
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

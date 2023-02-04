@@ -1,0 +1,11 @@
+.medicine{
+    height:300px;
+    width:500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPzAVi0_mfWfpfYwem769jwYdnUD0HDITFPQ&usqp=CAU");
+    border-radius: 20px;
+    background-size: cover;
+    margin-right:40px;
+}
+body{
+    background-color: rgb(50, 51, 55);
+}

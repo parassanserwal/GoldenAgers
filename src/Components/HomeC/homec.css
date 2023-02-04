@@ -1,0 +1,8 @@
+.homecommands{
+    background-image: url("https://i.imgur.com/yf1nt5D.png");
+    height:400px;
+    width:800px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}

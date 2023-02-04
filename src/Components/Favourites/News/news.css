@@ -1,0 +1,8 @@
+.News{
+    height:300px;
+    width:600px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCLVFbTSmlzVhk3f0Mhx_HJwBzUhNxPPnyg&usqp=CAU");
+    background-size: cover;
+    border-radius: 20px;
+    
+}
